@@ -27,7 +27,7 @@ def verificar_palabra(palabra_usuario, palabra_secreta):
 
 def conteo_de_intentos(attemps):
     
-    while attemps <= 5:
+    while attemps < 5:
 
         palabra_usuario = input("Escriba su palabra:")
         verificar_palabra(palabra_usuario, palabra_secreta)
